@@ -24,7 +24,7 @@ const Add = ({
     }
     if (type === "i" && quantity < stockNumber) {
       setQuantity((prev) => prev + 1);
-    }
+    }  
   };
 
   const wixClient = useWixClient();
